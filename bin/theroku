@@ -4,7 +4,10 @@ require 'theroku'
 # :name is optional, otherwise uses the basename of this executable
 program :name, 'Theroku'
 program :version, '0.0.2'
-program :description, "Awesome gem that'll bring you to balance."
+program :description, %Q(
+  Awesome gem to stay free and 24/7 available using the heroku free tier.
+  Request an account at http://therokubalance.com
+  )
 
 command :login do |c|
   c.syntax = 'theroku login'

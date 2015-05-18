@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["alejoescobar", "simon0191", "jasmo2"]
   spec.email         = ["alejoescobac@gmail.com"]
   spec.summary       = "Awesome Heroku load balancer."
-  spec.description   = "Gem to balance heroku servers."
+  spec.description   = "Gem to stay free and 24/7 available using the heroku free tier.\nRequest an account at http://therokubalance.com"
   spec.homepage      = "https://github.com/alejoescobar/theroku"
   spec.license       = "MIT"
 
